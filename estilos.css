@@ -1,0 +1,106 @@
+
+/* Diseño general de la página */
+body {
+    background: #eef5e9;
+    color: #303b30;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado principal */
+#encabezado {
+    background: #397a51;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    margin-bottom: 25px;
+}
+
+#encabezado h1 {
+    font-size: 36px;
+    margin: 10px;
+}
+
+#encabezado h2 {
+    font-size: 22px;
+}
+
+/* Secciones de información */
+.seccion {
+    background: white;
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #cccccc;
+}
+
+.seccion h2 {
+    color: #397a51;
+}
+
+.seccion p {
+    line-height: 1.7;
+}
+
+/* Listas */
+ul {
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+/* Texto destacado */
+.destacado {
+    color: #27854b;
+    background: #e3f4dc;
+    font-weight: bold;
+    padding: 4px;
+}
+
+/* Tabla de requisitos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background: #397a51;
+    color: white;
+    padding: 12px;
+    border: 1px solid #cccccc;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #cccccc;
+}
+
+tr:nth-child(even) {
+    background: #f0f7ed;
+}
+
+/* Imagen de los animales */
+img {
+    width: 450px;
+    max-width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Pie de página */
+#pie {
+    background: #397a51;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
